@@ -26,17 +26,17 @@ from pyrogram import (
     __version__ as v
 )
 
-#حقوق احمد @H1HHIH - @Z1ZZIZ
-ownerID = int("5108562302") #ايدي الادمن 
-api_hash = "84da7f08e87849853b2fa6728e4192a2" #ايبي هاش 
-api_id = 19312827 #ايبي ايدي
-token = "5882944724:AAFZF7dLV" #توكن البوت
+#By  @NUNUU - @VEEVVW
+ownerID = int("5108562302") 
+api_hash = "84da7f08e87849853b2fa6728e4192a2" 
+api_id = 19312827 
+token = "5882944724:AAFZF7dLV" 
 
 
 bot = Client(
   'bot'+token.split(":")[0],
-  19312827, #ايبي ايدي
- '84da7f08e87849853b2fa6728e4192a2', #ايبي هاش
+  19312827, 
+ '84da7f08e87849853b2fa6728e4192a2', 
   bot_token=token, in_memory=True
 )
 app = Client(
@@ -407,7 +407,7 @@ async def generator_and_about(app,m):
       text += "🐍 اللـغـة الـبـرمـجـيـة - بـايـثـون "
       text += f"\n🔥 اصـدار بايروجرام {v}"
       text += f"\n🌱 اصـدار تـيـلـيـثـون {v2}"
-      text += f"\n\n👤 مـطـور الـبـوت: @Z1ZZIZ"
+      text += f"\n\n👤 مـطـور الـبـوت: @NUNUU"
       await m.reply(text, quote=True)
 
     if m.text == "بـايـروجـرام":
@@ -521,5 +521,5 @@ async def generator_and_about(app,m):
 
 app.start()
 bot.start()
-print("تم تشغيل البوت @Z1ZZIZ")
+print("تم تشغيل البوت @NUNUU")
 idle()
